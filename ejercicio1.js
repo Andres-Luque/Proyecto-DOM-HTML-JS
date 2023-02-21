@@ -5,6 +5,9 @@ document.getElementById("btnTema3").addEventListener("click", fTemaTres);
 document.getElementById("btnRestablecer").addEventListener("click", fRestablecer);
 
 function fTemaUno() {
+  for (let y = 0; y < 4; y++) {
+    document.getElementsByClassName("cDiv")[y].style.backgroundColor = "#EAC86C";
+  }
   for (let x = 0; x < 3; x++) {
     document.getElementsByClassName("cTitulo")[x].style.color = "chocolate";
     document.getElementsByClassName("cTitulo")[x].style.backgroundColor = "aqua";
@@ -20,6 +23,9 @@ function fTemaUno() {
 }
 
 function fTemaDos() {
+  for (let y = 0; y < 4; y++) {
+    document.getElementsByClassName("cDiv")[y].style.backgroundColor = "#6CBCEA";
+  }
   for (let x = 0; x < 3; x++) {
     document.getElementsByClassName("cTitulo")[x].style.color = "blue";
     document.getElementsByClassName("cTitulo")[x].style.backgroundColor = "grey";
@@ -35,6 +41,9 @@ function fTemaDos() {
 }
 
 function fTemaTres() {
+  for (let y = 0; y < 4; y++) {
+    document.getElementsByClassName("cDiv")[y].style.backgroundColor = "#EA946C";
+  }
   for (let x = 0; x < 3; x++) {
     document.getElementsByClassName("cTitulo")[x].style.color = "red";
     document.getElementsByClassName("cTitulo")[x].style.backgroundColor = "yellow";
@@ -50,6 +59,9 @@ function fTemaTres() {
 }
 
 function fRestablecer() {
+  for (let y = 0; y < 4; y++) {
+    document.getElementsByClassName("cDiv")[y].style.backgroundColor = "cadetblue";
+  }
   for (let x = 0; x < 3; x++) {
     document.getElementsByClassName("cTitulo")[x].style.color = "blueviolet";
     document.getElementsByClassName("cTitulo")[x].style.backgroundColor = "aqua";
